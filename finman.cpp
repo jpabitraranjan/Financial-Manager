@@ -14,7 +14,7 @@ int main(){
     double income;
     double expense;
 
-    cout << "Welcome to the Financial Manager App!" << endl;
+    cout << "Welcome to the Financial Manager!" << endl;
     cout << "Please enter your name: ";
     cin >> name;
     cout << endl;
@@ -58,7 +58,7 @@ int main(){
             cout << "Current balance: " << data.total << endl;
             break;
         case 4:
-            cout << "Thank you for using the Financial Manager App!" << endl;
+            cout << "Thank you for using the Financial Manager!" << endl;
             return 0;
         default:
             cout << "Invalid choice! Please try again." << endl;
